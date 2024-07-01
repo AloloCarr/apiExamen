@@ -1,0 +1,22 @@
+{
+  "name": "examen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "mssql": "^11.0.0",
+    "nodemon": "^3.1.4",
+    "promise-mysql": "^5.2.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
